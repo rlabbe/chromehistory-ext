@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>History Auto-Delete</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 10px;
+            width: 300px;
+        }
+
+        textarea {
+            width: 100%;
+            height: 250px;
+        }
+
+        button {
+            margin-top: 10px;
+            width: 100%;
+        }
+
+        #status {
+            margin-top: 10px;
+            font-size: 90%;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Domains to exclude from history:</h3>
+    <textarea id="domainList" placeholder="e.g. imgur.com"></textarea>
+    <button id="saveBtn">Save</button>
+    <div id="status"></div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
